@@ -1,6 +1,6 @@
 import * as React from 'react'
 import * as THREE from 'three'
-import { SelectionBox } from 'three-stdlib'
+import { SelectionBox } from '@deltadevs/three-stdlib'
 import { useThree } from '@react-three/fiber'
 import shallow from 'zustand/shallow'
 

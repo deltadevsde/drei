@@ -1,6 +1,6 @@
 import { Loader } from 'three'
 // @ts-ignore
-import { GLTFLoader, DRACOLoader, MeshoptDecoder } from 'three-stdlib'
+import { GLTFLoader, DRACOLoader, MeshoptDecoder } from '@deltadevs/three-stdlib'
 import { useLoader } from '@react-three/fiber'
 
 let dracoLoader: DRACOLoader | null = null

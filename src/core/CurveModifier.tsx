@@ -1,6 +1,6 @@
 import * as React from 'react'
 import * as THREE from 'three'
-import { Flow } from 'three-stdlib'
+import { Flow } from '@deltadevs/three-stdlib'
 
 export interface CurveModifierProps {
   children: React.ReactElement<JSX.IntrinsicElements['mesh']>

@@ -1,7 +1,7 @@
 import { EventManager, ReactThreeFiber, useFrame, useThree } from '@react-three/fiber'
 import * as React from 'react'
 import * as THREE from 'three'
-import { OrbitControls as OrbitControlsImpl } from 'three-stdlib'
+import { OrbitControls as OrbitControlsImpl } from '@deltadevs/three-stdlib'
 
 export type OrbitControlsProps = ReactThreeFiber.Overwrite<
   ReactThreeFiber.Object3DNode<OrbitControlsImpl, typeof OrbitControlsImpl>,

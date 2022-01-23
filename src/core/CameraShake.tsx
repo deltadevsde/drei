@@ -1,7 +1,7 @@
 import * as React from 'react'
 import { useFrame, useThree } from '@react-three/fiber'
 import { Euler } from 'three'
-import { SimplexNoise } from 'three-stdlib'
+import { SimplexNoise } from '@deltadevs/three-stdlib'
 
 export interface ShakeController {
   getIntensity: () => number

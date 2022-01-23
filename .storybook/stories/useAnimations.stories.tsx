@@ -1,6 +1,6 @@
 import * as React from 'react'
 import { Vector3 } from 'three'
-import { GLTF } from 'three-stdlib'
+import { GLTF } from '@deltadevs/three-stdlib'
 import { withKnobs, select, number } from '@storybook/addon-knobs'
 
 import { Setup } from '../Setup'

@@ -4,7 +4,7 @@
 import * as React from 'react'
 import * as THREE from 'three'
 import { useFrame, useThree } from '@react-three/fiber'
-import { HorizontalBlurShader, VerticalBlurShader } from 'three-stdlib'
+import { HorizontalBlurShader, VerticalBlurShader } from '@deltadevs/three-stdlib'
 
 type Props = Omit<JSX.IntrinsicElements['group'], 'scale'> & {
   opacity?: number

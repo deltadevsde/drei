@@ -1,7 +1,7 @@
 import * as React from 'react'
 import { Vector2, Vector3, Color } from 'three'
 import { ReactThreeFiber } from '@react-three/fiber'
-import { LineGeometry, LineMaterial, LineMaterialParameters, Line2 } from 'three-stdlib'
+import { LineGeometry, LineMaterial, LineMaterialParameters, Line2 } from '@deltadevs/three-stdlib'
 
 export type LineProps = {
   points: Array<Vector3 | [number, number, number]>

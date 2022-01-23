@@ -3,7 +3,7 @@ import omit from 'lodash.omit'
 import pick from 'lodash.pick'
 import * as React from 'react'
 import * as THREE from 'three'
-import { TransformControls as TransformControlsImpl } from 'three-stdlib'
+import { TransformControls as TransformControlsImpl } from '@deltadevs/three-stdlib'
 
 type ControlsProto = {
   enabled: boolean

@@ -1,6 +1,6 @@
 import * as React from 'react'
 import { Object3DNode, useFrame, useThree } from '@react-three/fiber'
-import { FirstPersonControls as FirstPersonControlImpl } from 'three-stdlib'
+import { FirstPersonControls as FirstPersonControlImpl } from '@deltadevs/three-stdlib'
 
 export type FirstPersonControlsProps = Object3DNode<FirstPersonControlImpl, typeof FirstPersonControlImpl>
 

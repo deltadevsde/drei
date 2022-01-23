@@ -1,7 +1,7 @@
 import { ReactThreeFiber, useFrame, useThree } from '@react-three/fiber'
 import * as React from 'react'
 import * as THREE from 'three'
-import { FlyControls as FlyControlsImpl } from 'three-stdlib'
+import { FlyControls as FlyControlsImpl } from '@deltadevs/three-stdlib'
 
 export type FlyControlsProps = ReactThreeFiber.Object3DNode<FlyControlsImpl, typeof FlyControlsImpl> & {
   onChange?: (e?: THREE.Event) => void

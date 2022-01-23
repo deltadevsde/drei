@@ -1,7 +1,7 @@
 import { ReactThreeFiber, useFrame, useThree } from '@react-three/fiber'
 import * as React from 'react'
 import * as THREE from 'three'
-import { DeviceOrientationControls as DeviceOrientationControlsImp } from 'three-stdlib'
+import { DeviceOrientationControls as DeviceOrientationControlsImp } from '@deltadevs/three-stdlib'
 
 export type DeviceOrientationControlsProps = ReactThreeFiber.Object3DNode<
   DeviceOrientationControlsImp,

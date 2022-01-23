@@ -1,7 +1,7 @@
 import * as React from 'react'
 import { useLoader, useThree } from '@react-three/fiber'
 import { FloatType, EquirectangularReflectionMapping, CubeTextureLoader, Texture, Scene, Loader } from 'three'
-import { RGBELoader } from 'three-stdlib'
+import { RGBELoader } from '@deltadevs/three-stdlib'
 
 import { presetsObj, PresetsType } from '../helpers/environment-assets'
 

@@ -2,7 +2,7 @@ import { EventManager, ReactThreeFiber, useFrame, useThree } from '@react-three/
 import * as React from 'react'
 import * as THREE from 'three'
 // @ts-ignore
-import { ArcballControls as ArcballControlsImpl } from 'three-stdlib'
+import { ArcballControls as ArcballControlsImpl } from '@deltadevs/three-stdlib'
 
 export type ArcballControlsProps = ReactThreeFiber.Overwrite<
   ReactThreeFiber.Object3DNode<ArcballControlsImpl, typeof ArcballControlsImpl>,

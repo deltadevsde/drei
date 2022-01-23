@@ -1,7 +1,7 @@
 import { Texture } from 'three'
 import { useLoader, useThree } from '@react-three/fiber'
 import { useEffect } from 'react'
-import { KTX2Loader } from 'three-stdlib'
+import { KTX2Loader } from '@deltadevs/three-stdlib'
 import { IsObject } from './useTexture'
 
 const cdn = 'https://cdn.jsdelivr.net/gh/pmndrs/drei-assets@master'

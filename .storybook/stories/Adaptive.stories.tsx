@@ -6,7 +6,7 @@ import { Setup } from '../Setup'
 import { useGLTF, AdaptiveDpr, AdaptiveEvents, OrbitControls } from '../../src'
 
 import type { Material, Mesh } from 'three'
-import type { GLTF } from 'three-stdlib'
+import type { GLTF } from '@deltadevs/three-stdlib'
 
 export default {
   title: 'Performance/Adaptive',

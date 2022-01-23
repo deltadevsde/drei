@@ -1,7 +1,7 @@
 import { ReactThreeFiber, useFrame, useThree } from '@react-three/fiber'
 import * as React from 'react'
 import * as THREE from 'three'
-import { MapControls as MapControlsImpl } from 'three-stdlib'
+import { MapControls as MapControlsImpl } from '@deltadevs/three-stdlib'
 
 export type MapControlsProps = ReactThreeFiber.Overwrite<
   ReactThreeFiber.Object3DNode<MapControlsImpl, typeof MapControlsImpl>,

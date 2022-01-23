@@ -1,7 +1,7 @@
 import { ReactThreeFiber, useThree } from '@react-three/fiber'
 import * as React from 'react'
 import * as THREE from 'three'
-import { PointerLockControls as PointerLockControlsImpl } from 'three-stdlib'
+import { PointerLockControls as PointerLockControlsImpl } from '@deltadevs/three-stdlib'
 
 export type PointerLockControlsProps = ReactThreeFiber.Object3DNode<
   PointerLockControlsImpl,

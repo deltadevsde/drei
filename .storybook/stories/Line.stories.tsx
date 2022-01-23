@@ -1,6 +1,6 @@
 import * as React from 'react'
 import { Vector3 } from 'three'
-import { hilbert3D } from 'three-stdlib'
+import { hilbert3D } from '@deltadevs/three-stdlib'
 import { withKnobs, number, color, boolean } from '@storybook/addon-knobs'
 
 import { Setup } from '../Setup'
